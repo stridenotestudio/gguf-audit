@@ -1,0 +1,352 @@
+[
+ {
+  "label": "GLM base",
+  "repo": "unsloth/GLM-4.7-Flash-GGUF",
+  "file": "GLM-4.7-Flash-Q4_K_M.gguf",
+  "arch": "deepseek2",
+  "expert_count": 64,
+  "expert_used": 4,
+  "blocks": 47,
+  "file_type": 15,
+  "general_name": "Glm-4.7-Flash",
+  "n_tensors": 844,
+  "per_class": {
+   "ffn_down_exps": {
+    "types": {
+     "Q6_K": 22,
+     "Q4_K": 24
+    },
+    "majority": "Q4_K",
+    "n_layers": 46,
+    "outliers": [
+     [
+      1,
+      "Q6_K"
+     ],
+     [
+      2,
+      "Q6_K"
+     ],
+     [
+      3,
+      "Q6_K"
+     ],
+     [
+      4,
+      "Q6_K"
+     ],
+     [
+      7,
+      "Q6_K"
+     ],
+     [
+      10,
+      "Q6_K"
+     ],
+     [
+      13,
+      "Q6_K"
+     ],
+     [
+      16,
+      "Q6_K"
+     ],
+     [
+      19,
+      "Q6_K"
+     ],
+     [
+      22,
+      "Q6_K"
+     ],
+     [
+      25,
+      "Q6_K"
+     ],
+     [
+      28,
+      "Q6_K"
+     ],
+     [
+      31,
+      "Q6_K"
+     ],
+     [
+      34,
+      "Q6_K"
+     ],
+     [
+      37,
+      "Q6_K"
+     ],
+     [
+      40,
+      "Q6_K"
+     ],
+     [
+      41,
+      "Q6_K"
+     ],
+     [
+      42,
+      "Q6_K"
+     ],
+     [
+      43,
+      "Q6_K"
+     ],
+     [
+      44,
+      "Q6_K"
+     ],
+     [
+      45,
+      "Q6_K"
+     ],
+     [
+      46,
+      "Q6_K"
+     ]
+    ]
+   },
+   "ffn_gate_exps": {
+    "types": {
+     "Q4_K": 46
+    },
+    "majority": "Q4_K",
+    "n_layers": 46,
+    "outliers": []
+   },
+   "ffn_up_exps": {
+    "types": {
+     "Q4_K": 46
+    },
+    "majority": "Q4_K",
+    "n_layers": 46,
+    "outliers": []
+   }
+  },
+  "body_types": {
+   "Q6_K": 48,
+   "Q4_K": 144,
+   "Q8_0": 141,
+   "Q5_K": 92
+  },
+  "distinct_weight_types": [
+   "Q4_K",
+   "Q5_K",
+   "Q6_K",
+   "Q8_0"
+  ],
+  "expert_dims_ok": true,
+  "mb_read": 16
+ },
+ {
+  "label": "Scout",
+  "repo": "unsloth/Llama-4-Scout-17B-16E-Instruct-GGUF",
+  "file": "Q4_K_M/Llama-4-Scout-17B-16E-Instruct-Q4_K_M-00001-of-00002.gguf",
+  "arch": "llama4",
+  "expert_count": 16,
+  "expert_used": 1,
+  "blocks": 48,
+  "file_type": 15,
+  "general_name": "Llama-4-Scout-17B-16E-Instruct",
+  "n_tensors": 483,
+  "per_class": {
+   "ffn_down_exps": {
+    "types": {
+     "Q6_K": 16,
+     "Q4_K": 21
+    },
+    "majority": "Q4_K",
+    "n_layers": 37,
+    "outliers": [
+     [
+      0,
+      "Q6_K"
+     ],
+     [
+      1,
+      "Q6_K"
+     ],
+     [
+      2,
+      "Q6_K"
+     ],
+     [
+      3,
+      "Q6_K"
+     ],
+     [
+      4,
+      "Q6_K"
+     ],
+     [
+      5,
+      "Q6_K"
+     ],
+     [
+      8,
+      "Q6_K"
+     ],
+     [
+      11,
+      "Q6_K"
+     ],
+     [
+      14,
+      "Q6_K"
+     ],
+     [
+      17,
+      "Q6_K"
+     ],
+     [
+      20,
+      "Q6_K"
+     ],
+     [
+      23,
+      "Q6_K"
+     ],
+     [
+      26,
+      "Q6_K"
+     ],
+     [
+      29,
+      "Q6_K"
+     ],
+     [
+      32,
+      "Q6_K"
+     ],
+     [
+      35,
+      "Q6_K"
+     ]
+    ]
+   },
+   "ffn_gate_exps": {
+    "types": {
+     "Q4_K": 37
+    },
+    "majority": "Q4_K",
+    "n_layers": 37,
+    "outliers": []
+   },
+   "ffn_up_exps": {
+    "types": {
+     "Q4_K": 36
+    },
+    "majority": "Q4_K",
+    "n_layers": 36,
+    "outliers": []
+   }
+  },
+  "body_types": {
+   "Q6_K": 33,
+   "Q4_K": 227
+  },
+  "distinct_weight_types": [
+   "Q4_K",
+   "Q6_K"
+  ],
+  "expert_dims_ok": true,
+  "mb_read": 16
+ },
+ {
+  "label": "gemma12 unsloth",
+  "repo": "unsloth/gemma-4-12b-it-GGUF",
+  "file": "gemma-4-12b-it-Q4_K_M.gguf",
+  "arch": "gemma4",
+  "expert_count": null,
+  "expert_used": null,
+  "blocks": 48,
+  "file_type": 15,
+  "general_name": "Gemma-4-12B-It",
+  "n_tensors": 667,
+  "per_class": {},
+  "body_types": {
+   "Q4_K": 285,
+   "Q6_K": 44
+  },
+  "distinct_weight_types": [
+   "Q4_K",
+   "Q6_K"
+  ],
+  "expert_dims_ok": null,
+  "mb_read": 16
+ },
+ {
+  "label": "gemma12 google",
+  "repo": "google/gemma-4-12B-it-qat-q4_0-gguf",
+  "file": "gemma-4-12b-it-qat-q4_0.gguf",
+  "arch": "gemma4",
+  "expert_count": null,
+  "expert_used": null,
+  "blocks": 48,
+  "file_type": 2,
+  "general_name": "Hf",
+  "n_tensors": 667,
+  "per_class": {},
+  "body_types": {
+   "Q6_K": 1,
+   "Q4_0": 328
+  },
+  "distinct_weight_types": [
+   "Q4_0",
+   "Q6_K"
+  ],
+  "expert_dims_ok": null,
+  "mb_read": 16
+ },
+ {
+  "label": "gemma12 bartowski",
+  "repo": "bartowski/gemma-4-12B-it-GGUF",
+  "file": "gemma-4-12B-it-Q4_K_M.gguf",
+  "arch": "gemma4",
+  "expert_count": null,
+  "expert_used": null,
+  "blocks": 48,
+  "file_type": 15,
+  "general_name": "Gemma 4 12B It",
+  "n_tensors": 667,
+  "per_class": {},
+  "body_types": {
+   "Q6_K": 69,
+   "Q5_K": 96,
+   "Q4_K": 164
+  },
+  "distinct_weight_types": [
+   "Q4_K",
+   "Q5_K",
+   "Q6_K"
+  ],
+  "expert_dims_ok": null,
+  "mb_read": 16
+ },
+ {
+  "label": "gemma12 MTP file",
+  "repo": "bartowski/gemma-4-12B-it-GGUF",
+  "file": "mtp-gemma-4-12B-it-Q4_0.gguf",
+  "arch": "gemma4-assistant",
+  "expert_count": null,
+  "expert_used": null,
+  "blocks": 4,
+  "file_type": 2,
+  "general_name": "google/gemma-4-12B-it-assistant",
+  "n_tensors": 49,
+  "per_class": {},
+  "body_types": {
+   "Q4_0": 22,
+   "Q6_K": 1
+  },
+  "distinct_weight_types": [
+   "Q4_0",
+   "Q6_K"
+  ],
+  "expert_dims_ok": null,
+  "mb_read": 16
+ }
+]
